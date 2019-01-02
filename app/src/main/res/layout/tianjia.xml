@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shiyan2.MainActivity">
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="添加备忘录"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="#d2b2b2"
+        />
+
+           
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/TextView1"
+
+        android:layout_marginTop="10dp"
+        android:hint="主题" />
+
+        />
+
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignStart="@+id/EditText1"
+        android:layout_alignLeft="@+id/EditText1"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:hint="内容" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="完成"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
